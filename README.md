@@ -45,9 +45,9 @@ Change the SQL connection string in the file local.settings.json
 "SqlConnectionString": "Server={Azure SQL Server};Initial Catalog={Database name};Persist Security Info=False;User ID={user};Password={password};"
 ```
 ### Create table
-In the database create a ToDo table:
+In the database create a Table_Invoice table:
 ```
-CREATE TABLE [dbo].[dbo.Table_Invoice]
+CREATE TABLE [dbo].[Table_Invoice]
 (
     Sales_Document VARCHAR(255),
     Date_Created DATE,
